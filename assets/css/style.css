@@ -215,3 +215,20 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 640px){
+  /*for small devices*/
+  div {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 980px){
+  /*css for tables*/
+}
+@media and (min-width: 980px){
+/*desktop*/
+  #main_div {
+   width: 100%;
+   max-width: 1200px;
+ }
+}
